@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Sono', sans-serif;; */
+}
+
+
+header{
+    height:20vh;
+    display:flex;
+    background-color: #ffff;
+    padding-left: 10vh;
+    align-items: center;
+
+}
+header nav ul{
+    padding-left: 30vh;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+header nav ul li{
+    list-style: none;
+    margin:0 20px;
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:rgb(0,0,0);
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover{
+    text-decoration: black underline;
+    color:#47873d;
+}
+
+
+
+header .lines{
+    width:30px;
+    height:9px;
+    padding-left:50vh;
+}
+
+
+
+header .lines .line1{
+    background-color:#47873d;
+    width:30px;
+    height:2px;
+}
+
+header a:hover{
+    cursor: pointer;
+}
+
+
+header .lines :hover{
+    cursor:pointer;
+    transform: scale(.5, 1);
+}
+header .lines .line2{
+    background-color:#47873d;
+    width:30px;
+    margin-top:5px;
+    height:2px;
+}
+
+
+
+
+main .main1{
+    height:100vh;
+    background-image: linear-gradient(rgba(71, 135, 61,.5),rgba(71, 135, 61,.7)), url(https://www.pixelstalk.net/wp-content/uploads/images6/Garden-Wallpaper-HD-Free-download.jpg);
+    /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Garden-Wallpaper-HD-Free-download.jpg"); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 6vh;
+    font-weight: 900;
+}
+
+main .main2{
+    padding-top: 30vh;
+    height:70vh;
+    padding-left:100px;
+}
+
+
+main .main2 .design1{
+    
+    display: inline-block;
+    width:30vw;
+}
+
+
+main .main2 .design1 p{
+    width:200px;
+    color:#47873d;
+}
+
+main .main2 .design1 .p2{
+    margin-top: 30px;
+    font-weight: bolder;
+}
+main .main2 .design1 .p2 i{
+    color:#47873d;
+    cursor: pointer;
+    font-size:15px;
+    transition: all .2s;
+}
+main .main2 .design1 .p2 i:hover{
+    padding-left: 10px;
+    transform: scale(2, .8);
+    color:darkgreen;
+}
+
+main .main2 .design1 a .x{
+    margin:10px 0 10px 0;
+    height:3px;
+    width:250px;
+    background-color: #47873d;
+    transition: all .2s;
+}
+
+
+main .main2 .design1 a .x:hover{
+    transform:scale(0, 0);
+}
+
+main .main2 h1{
+    border-top:2px solid gray;
+    padding: 30px 70px 20px 5px;
+}
+
+
+
+main .main2 .design2{
+    width:40vw;
+    margin-right:15vw;
+    float:right;
+    text-align: justify;
+}
+
+
+main .main2 .design2 .p1{
+    margin-bottom:20px;
+    font-weight: 600;
+}
+
+.main3{
+    height:100vh;
+    background-color: #47873d;
+}
+
+.main3 .left{
+    color:white;
+    width:40vw;
+    display: inline-block;
+    font-size: xx-large;
+    padding-left:10vw;
+    padding-top:10vh;
+}
+
+.main3 .right{
+    width:40vw;
+    padding-right:10vw;
+    color:white;
+    float:right;
+    margin-top: 10vh;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.main3 .right p{
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.main3 .right .down-right{
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns   :auto auto;
+}
+
+.main3 .right .down-right .abc{
+    display: inline-block;
+    margin-right:10px;
+}
+
+
+.main3 .right .down-right .abc h1,p,a{
+    padding-bottom:10px;    
+}
+
+.main3 .right .down-right .def h1,p,a{
+    padding-bottom:10px;    
+}
+
+.main3 .right .down-right .def{
+    float:right;
+}
+
+.main3 .right .down-right a .x{
+    margin:10px 0 10px 0;
+    height:3px;
+    width:250px;
+    background-color: #fff;
+    transition: all .2s;
+    
+}
+
+.main4{
+    height:120vh;
+    padding-top:10vh;
+}
+
+.main4 .content{
+    border:2px solid #47873d;
+    color:white;
+    background-color: #47873d;
+    box-shadow: 5px 5px 4px 1px black;
+    width: 28vw;
+    height:50vh;
+    margin-left:50vw;
+    padding:30px;
+    word-spacing: 2px;
+    font-size: larger ;
+    text-align: justify;
+}
+
+
+.main4 .content .img1{
+    position: relative;
+    width:30vw;
+}
+
+
+.main4 .content p{
+    margin-bottom: 20px;  
+}
+
+
+
+main .main4  i:hover{
+    padding-left: 10px;
+    transform: scale(2, .8);
+}
+
+
+
+.main5{
+    height:100vh;
+    margin-left:10vw;
+    width:80vw;
+}
+
+.main5 .content h1{
+    font-size: 25px;
+    padding-top: 5vh;
+    border-top:2px solid gray;
+}
+
+
+.main5 .content{
+    padding-top:30px;
+}
+.main5 .content p{
+    padding-top:30px;
+    border-bottom:1px solid #47873d;
+    font-weight: 2000;
+    font-size: xx-large;
+}
+
+.main6{
+    height:90vh;
+    background-color: #47873d ;
+}
+.main6 .content{
+    padding-left:10vw;
+    
+    padding-top:10vh;
+    font-size: xx-large;
+    text-align: justify;
+}
+.main6 .content .line{
+    width:80vw;
+    height:2px;
+    background-color:white;
+}
+.main6 .content p{
+    color:white;
+    padding-top:20px;
+}
+
+.main6 .content .left{
+    width:40vw ;
+    display:inline-block;
+}
+.main6 .content .right{
+    float:right;
+    margin-right:15vw;
+}
+.main6 .content .right i:hover{
+    padding-left: 10px;
+    transform: scale(2, .8);
+}
+
+
+/* .main6 .images img{
+    transition:all .2s;
+    height: 50vh;width: 18vw; position:relative;left:20vw;bottom:250px;top:10vh; margin-left:20px;
+    box-shadow: 5px 5px 4px 1px black;
+}
+
+
+.main6 .images img:hover{
+    cursor:pointer;
+    transform: rotateZ(30deg);
+    box-shadow: 10px 10px black;
+} */
+
+.main7{
+    height: 100vh;
+    margin-top:20vh;
+}
+
+.main7 .content{
+    margin-left: 10vw;
+    width:80vw;
+    border-top:1px solid gray;
+    padding-top:2vw;
+}
+
+.main7 .left p{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.main7 .left{
+    display: inline-block;
+}
+
+
+.main7 .right{
+    text-align: justify;
+    font-size: larger;
+    width:25vw; 
+    float:right;
+}
+
+.main7 .rightdown{
+    padding-top: 3px;
+    border-top: 2px solid  #47873d;
+    /* margin-top: 20vh; */
+    margin-bottom:5vh;
+}
+
+
+.main7 .rightdown span{
+    color:#47873d;
+    margin-right: 10px;
+}
+
+.main7 .right h3{
+    font-weight: lighter;
+    border-top:2px solid gray;
+    padding:10px;
+}
+
+
+
+/* .main8{
+    height:100vh;
+    background-image: url(background1.jpg);
+    background-size: cover;
+} */
+
+
+
+.main9{
+    height:300vh;
+}
+
+.main9 .first .phlekaphla{
+    display: inline-block;
+    margin:10vh 0 0 20vh;
+    color:#000000;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+
+.main9 .first .phlekadusra{
+    position: relative;
+    float:right;
+    width:30vw;
+    text-align: justify;
+    top:10vh;
+    right:20vw;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.main9 .second{
+    margin: 15vh 0 0 5vw;
+}
+
+.main9 .second  a{
+    color:#fff;
+    text-decoration: none;
+    font-size: larger;
+    padding:50px;
+}
+
+.main9 .box1, .box2, .box3, .box4{
+    height:80vh;
+    width:40vw;
+    margin-bottom: 10vh;
+    border:2px solid #76bf6a;
+    background-color: #76bf6a;
+}
+
+.main9 .box .para{
+     margin-top: 10vh;
+    font-size: larger; 
+}
+
+.main9 .second .box:hover{
+    background-color: #47873d;
+}
+
+
+.main9 .second .left{
+    display: inline-block;
+}
+.main9 .second .right{
+    float:right;
+    margin-right:10vw;
+}
+
+
+.main9 .box{
+    padding:10px;
+    transition: all .1s;
+}
+
+
+
+.main9 .third{
+    width:80vw;
+    margin-left:10vw;
+}
+
+
+.main9 .third img{
+    transition: all .2s;
+}
+
+.main9 .third img:hover{
+    cursor:pointer;
+    background-color: aqua;
+    transform:rotateZ(30deg);
+    box-shadow: 5px 10px black ;
+}
+.main9 .third p{
+    border-top: 2px solid gray;
+    padding-top: 20px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+footer{
+    height:20vh;
+    background-color: #47873d;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+footer   .copyright1 {
+    font-size: larger;
+    padding-left: 20vh;
+}
+footer   .copyright1 p{
+    transition: all .5s;
+}
+footer   .copyright1 p:hover{
+    cursor:pointer;
+    color: gray;
+}
+footer a{
+
+    padding:20px;
+    color:#ffff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+footer a:hover{
+    color: gray;
+}
+
+
